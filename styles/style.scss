@@ -1,0 +1,11 @@
+@import "./variables";
+@import "./header";
+
+.info {
+  background-color: rgb(83, 161, 144);
+  @extend header;
+  height: 30vh;
+}
+p {
+  color: $textColor;
+}
